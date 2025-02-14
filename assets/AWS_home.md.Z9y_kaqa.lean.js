@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,ae as o}from"./chunks/framework.Cwl8K4e2.js";const u=JSON.parse('{"title":"AWS 課程筆記","description":"","frontmatter":{},"headers":[],"relativePath":"AWS/home.md","filePath":"AWS/home.md"}'),l={name:"AWS/home.md"};function i(s,a,n,h,c,d){return r(),t("div",null,a[0]||(a[0]=[o("",7)]))}const m=e(l,[["render",i]]);export{u as __pageData,m as default};
