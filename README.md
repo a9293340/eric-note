@@ -1,6 +1,6 @@
 # Coding Notes
 
-## JavaScript
+## JavaScript/TypeScript
 
 ## AWS
 
