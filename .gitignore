@@ -1,6 +1,9 @@
 .qodo
 .vscode
-
+node_modules
 # 忽略所有資料夾中的 .DS_Store 檔案
 .DS_Store
 **/.DS_Store
+
+docs/.vitepress/cache
+docs/.vitepress/dist
