@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Eric's Note",
   description: "隨筆",
+  base: '/eric-note/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
