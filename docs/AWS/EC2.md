@@ -72,3 +72,31 @@
   - 提供了實例的詳細信息，方便管理和監控。
   - 可以用於自動化實例的設定和配置。
   - 可以用於實現實例之間的通訊和協作。
+
+
+#### 如何 mount EBS
+
+```
+# 查看目標磁碟(EBS)
+sudo lsblk -p 
+
+# 針對 EBS 進行 XFS 格式化
+sudo mkfs -t xfs /dev/nvme0n1
+
+# 掛載 EBS
+sudo mkdir data
+sudo mount /dev/nvme0n1 data
+
+# 查看掛載結果
+sudo df -h
+```
+
+### AMI (Amazon Machine Image)
+
+![AMI](./img/ami-1.png)
+
+- AMI 是 EC2 的基礎鏡像，包含了作業系統、應用程式和配置。
+- AMI 可以是 AWS 提供的，也可以是用戶自己創建的。
+- AMI 包含了作業系統、應用程式和配置，讓用戶可以快速部署虛擬機器。
+- AMI 可以根據需要進行自定義，例如安裝特定的應用程式或設定特定的安全性設定。
+

@@ -15,3 +15,11 @@
 - 遞歸
 - ref return
 - 將引用變量作為參數傳遞
+
+
+## C# Type Conversion
+
+- What is Type Conversion
+- Casting(Implicit & Explicit)
+- Parse(parse/tryParse)
+- Conversion Methods

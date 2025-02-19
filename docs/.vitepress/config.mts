@@ -20,6 +20,7 @@ export default defineConfig({
           items: [
             { text: 'VPC', link: '/AWS/VPC' },
             { text: 'EC2', link: '/AWS/EC2' },
+            { text: 'S3', link: '/AWS/s3' },
           ],
           
         },
@@ -40,6 +41,16 @@ export default defineConfig({
             { text: '遞歸', link: '/CSharp/method/recursion' },
             { text: 'ref return', link: '/CSharp/method/ref_return' },
             { text: '將引用變量作為參數傳遞', link: '/CSharp/method/object_reference_as_arguments' },
+          ]
+        },
+        {
+          text: 'C# Type Conversion',
+          collapsed: true,
+          items: [
+            { text: 'What is Type Conversion', link: '/CSharp/type-conversion/index' },
+            { text: 'Casting', link: '/CSharp/type-conversion/casting' },
+            { text: 'Parse', link: '/CSharp/type-conversion/parse' },
+            { text: 'Conversion Methods', link: '/CSharp/type-conversion/conversionMethods' },
           ]
         }
       ]
