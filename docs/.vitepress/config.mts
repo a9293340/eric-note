@@ -21,6 +21,7 @@ export default defineConfig({
             { text: 'VPC', link: '/AWS/VPC' },
             { text: 'EC2', link: '/AWS/EC2' },
             { text: 'S3', link: '/AWS/s3' },
+            { text: 'RDS', link: '/AWS/rds' },
           ],
           
         },

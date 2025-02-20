@@ -55,4 +55,5 @@ string result = System.Convert.ToString(number); // 將 int 轉換為 string
 
 ## 結論
 
-通過使用 `System.Convert` 類中的轉換方法，您可以將任何原始類型轉換為任何其他原始類型，並且可以輕鬆地在字符串和原始類型之間進行轉換。這些方法提供了一種簡單而有效的方式來處理數據類型的轉換。
+- 通過使用 `System.Convert` 類中的轉換方法，您可以將任何原始類型轉換為任何其他原始類型，並且可以輕鬆地在字符串和原始類型之間進行轉換。這些方法提供了一種簡單而有效的方式來處理數據類型的轉換。
+- 使用 Conversion Methods 時要注意，若是要轉換的是各 type 的 default value，則不會引發 Exception，使用上需小心。

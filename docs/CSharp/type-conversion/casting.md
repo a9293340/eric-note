@@ -86,7 +86,7 @@ int asciiValue = c; // 隱式轉換，asciiValue 將存儲 97
 - 手動將源值轉換為目標類型的過程。
 - 例如，將值 100 轉換為 `double` 類型：
   ```csharp
-  double value = (double)100;
+  var value = (double)100;
   ```
 
 ### 注意事項
