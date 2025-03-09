@@ -22,6 +22,7 @@ export default defineConfig({
             { text: 'EC2', link: '/AWS/EC2' },
             { text: 'S3', link: '/AWS/s3' },
             { text: 'RDS', link: '/AWS/rds' },
+            { text: 'IAM', link: '/AWS/iam' },
           ],
           
         },
@@ -52,6 +53,17 @@ export default defineConfig({
             { text: 'Casting', link: '/CSharp/type-conversion/casting' },
             { text: 'Parse', link: '/CSharp/type-conversion/parse' },
             { text: 'Conversion Methods', link: '/CSharp/type-conversion/conversionMethods' },
+          ]
+        },
+        {
+          text: 'C# Constructor',
+          collapsed: true,
+          items: [
+            { text: 'Instance Constructor', link: '/CSharp/constructor/instance-constructor' },
+            { text: 'Static Constructor', link: '/CSharp/constructor/static-constructor' },
+            { text: 'Type of Constructor', link: '/CSharp/constructor/type-of-constructor' },
+            { text: 'Constructor Overloading', link: '/CSharp/constructor/constructor-overloading' },
+            { text: 'Constructor Initializer', link: '/CSharp/constructor/constructor-initializer' },
           ]
         }
       ]
