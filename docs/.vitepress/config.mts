@@ -65,6 +65,16 @@ export default defineConfig({
             { text: 'Constructor Overloading', link: '/CSharp/constructor/constructor-overloading' },
             { text: 'Constructor Initializer', link: '/CSharp/constructor/constructor-initializer' },
           ]
+        },
+        {
+          text: 'C# Properties',
+          collapsed: true,
+          items: [
+            { text: 'Property Basic', link: '/CSharp/properties/creating-properties' },
+            { text: 'Read-Only & Write-Only', link: '/CSharp/properties/readonly-writeonly' },
+            { text: 'Auto-Properties with Accessor Accessibility', link: '/CSharp/properties/auto-properties-with-accessor-accessibility' },
+            { text: 'Auto-Implemented Property', link: '/CSharp/properties/auto-implemented-properties-initializers' },
+          ]
         }
       ]
     },
