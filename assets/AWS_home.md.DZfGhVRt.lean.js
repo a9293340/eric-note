@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,ae as l}from"./chunks/framework.TiKqN8Et.js";const _=JSON.parse('{"title":"AWS 課程筆記","description":"","frontmatter":{},"headers":[],"relativePath":"AWS/home.md","filePath":"AWS/home.md"}'),o={name:"AWS/home.md"};function i(s,a,h,n,d,c){return r(),t("div",null,a[0]||(a[0]=[l("",9)]))}const S=e(o,[["render",i]]);export{_ as __pageData,S as default};
