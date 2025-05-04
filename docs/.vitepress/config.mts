@@ -1,20 +1,20 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Eric's Note",
-  description: "隨筆",
+  description: '隨筆',
   base: '/eric-note/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'AWS', link: '/AWS/home', activeMatch: '/AWS/' },
-      { text: 'C#', link: '/CSharp/home', activeMatch: '/CSharp/' }
+      { text: 'C#', link: '/CSharp/home', activeMatch: '/CSharp/' },
     ],
 
     sidebar: {
-      '/AWS/':[
+      '/AWS/': [
         {
           text: 'AWS',
           items: [
@@ -24,14 +24,13 @@ export default defineConfig({
             { text: 'RDS', link: '/AWS/rds' },
             { text: 'IAM', link: '/AWS/iam' },
           ],
-          
         },
       ],
-      '/CSharp/':[
+      '/CSharp/': [
         {
           text: 'CSharp Method',
           collapsed: true,
-          items:[
+          items: [
             { text: '方法基礎', link: '/CSharp/method/method_basic' },
             { text: '參數', link: '/CSharp/method/arguments' },
             { text: '參數修飾', link: '/CSharp/method/prarmeter_modifiers' },
@@ -42,8 +41,11 @@ export default defineConfig({
             { text: '方法多載', link: '/CSharp/method/method_overload' },
             { text: '遞歸', link: '/CSharp/method/recursion' },
             { text: 'ref return', link: '/CSharp/method/ref_return' },
-            { text: '將引用變量作為參數傳遞', link: '/CSharp/method/object_reference_as_arguments' },
-          ]
+            {
+              text: '將引用變量作為參數傳遞',
+              link: '/CSharp/method/object_reference_as_arguments',
+            },
+          ],
         },
         {
           text: 'C# Type Conversion',
@@ -53,7 +55,7 @@ export default defineConfig({
             { text: 'Casting', link: '/CSharp/type-conversion/casting' },
             { text: 'Parse', link: '/CSharp/type-conversion/parse' },
             { text: 'Conversion Methods', link: '/CSharp/type-conversion/conversionMethods' },
-          ]
+          ],
         },
         {
           text: 'C# Constructor',
@@ -62,9 +64,15 @@ export default defineConfig({
             { text: 'Instance Constructor', link: '/CSharp/constructor/instance-constructor' },
             { text: 'Static Constructor', link: '/CSharp/constructor/static-constructor' },
             { text: 'Type of Constructor', link: '/CSharp/constructor/type-of-constructor' },
-            { text: 'Constructor Overloading', link: '/CSharp/constructor/constructor-overloading' },
-            { text: 'Constructor Initializer', link: '/CSharp/constructor/constructor-initializer' },
-          ]
+            {
+              text: 'Constructor Overloading',
+              link: '/CSharp/constructor/constructor-overloading',
+            },
+            {
+              text: 'Constructor Initializer',
+              link: '/CSharp/constructor/constructor-initializer',
+            },
+          ],
         },
         {
           text: 'C# Properties',
@@ -72,15 +80,33 @@ export default defineConfig({
           items: [
             { text: 'Property Basic', link: '/CSharp/properties/creating-properties' },
             { text: 'Read-Only & Write-Only', link: '/CSharp/properties/readonly-writeonly' },
-            { text: 'Auto-Properties with Accessor Accessibility', link: '/CSharp/properties/auto-properties-with-accessor-accessibility' },
-            { text: 'Auto-Implemented Property', link: '/CSharp/properties/auto-implemented-properties-initializers' },
-          ]
-        }
-      ]
+            {
+              text: 'Auto-Properties with Accessor Accessibility',
+              link: '/CSharp/properties/auto-properties-with-accessor-accessibility',
+            },
+            {
+              text: 'Auto-Implemented Property',
+              link: '/CSharp/properties/auto-implemented-properties-initializers',
+            },
+          ],
+        },
+        {
+          text: 'C# Inheritance',
+          collapsed: true,
+          items: [
+            { text: 'Inheritance Basic', link: '/CSharp/Inheritance/index' },
+            { text: 'Inheritance Types', link: '/CSharp/Inheritance/type' },
+            { text: 'Base Keyword', link: '/CSharp/Inheritance/base-keyword' },
+            { text: 'Constructor Chaining', link: '/CSharp/Inheritance/constructor-chaining' },
+            { text: 'Method Hiding', link: '/CSharp/Inheritance/method-hiding' },
+            { text: 'Method Override', link: '/CSharp/Inheritance/method-override' },
+            { text: 'Sealed Class', link: '/CSharp/Inheritance/sealed-class' },
+            { text: 'Sealed Method', link: '/CSharp/Inheritance/sealed-method' },
+          ],
+        },
+      ],
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
-})
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+  },
+});
