@@ -104,6 +104,20 @@ export default defineConfig({
             { text: 'Sealed Method', link: '/CSharp/Inheritance/sealed-method' },
           ],
         },
+        {
+          text: 'C# abstract',
+          collapsed: true,
+          items: [
+            { text: 'C# 抽象（Abstract）概念', link: '/CSharp/abstract/abstract' },
+            { text: 'C# 抽象類別重點', link: '/CSharp/abstract/abstract_key_points' },
+            { text: 'C# 抽象方法', link: '/CSharp/abstract/abstract_methods' },
+            { text: 'C# 介面 (Interface)', link: '/CSharp/abstract/interface' },
+            { text: 'C# 多態性', link: '/CSharp/abstract/polymorphism' },
+            { text: 'C# 多重繼承', link: '/CSharp/abstract/multiple_inheritance' },
+            { text: 'C# 接口繼承', link: '/CSharp/abstract/interface_inheritance' },
+            { text: 'C# 顯式接口實現', link: '/CSharp/abstract/explicit_interface' },
+          ],
+        },
       ],
     },
 
